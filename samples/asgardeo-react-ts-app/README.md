@@ -6,7 +6,7 @@
 
 Follow the instructions in the [Try Out the Sample Apps](../../README.md#try-out-the-sample-apps) section to register an application.
 
-Make sure to add `https://localhost:5000` as a Redirect URL and also add it under allowed origins.
+Make sure to add `https://localhost:3000` as a Redirect URL and also add it under allowed origins.
 
 ### Configuring the Sample
 
@@ -20,7 +20,7 @@ Read more about the SDK configurations [here](../../README.md#initialize) .
 {
     "clientID": "<ADD_CLIENT_ID_HERE>",
     "serverOrigin": "<ADD_SERVER_ORIGIN_HERE>",
-    "signInRedirectURL": "https://localhost:5000"
+    "signInRedirectURL": "https://localhost:3000"
 }
 ```
 
@@ -30,7 +30,7 @@ Read more about the SDK configurations [here](../../README.md#initialize) .
 npm start
 ```
 
-The app should open at `https://localhost:5000`
+The app should open at `https://localhost:3000`
 
 ## Available Scripts
 
@@ -39,7 +39,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.<br />
-Open [https://localhost:5000](https://localhost:5000) to view it in the browser.
+Open [https://localhost:3000](https://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.

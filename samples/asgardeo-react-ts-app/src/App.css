@@ -63,8 +63,8 @@ a:hover {
 }
 
 img.footer-image {
-    width: 150px;
-    margin-top: 30px;
+    width: 50px;
+    margin: 30px auto;
     opacity: .8;
 }
 

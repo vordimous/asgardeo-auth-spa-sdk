@@ -1,5 +1,6 @@
 {
     "clientID": "",
-    "serverOrigin": "",
-    "signInRedirectURL": "https://localhost:5000"
+    "signInRedirectURL": "http://localhost:3000",
+    "serverOrigin": "https://localhost:9443",
+    "enablePKCE": false
 }

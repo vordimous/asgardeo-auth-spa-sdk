@@ -19,7 +19,7 @@
 import React, { FunctionComponent, ReactElement, useEffect, useState } from "react";
 import "./App.css";
 import ReactLogo from "./images/react-logo.png";
-import JavascriptLogo from "./images/js-logo.png";
+import JavascriptLogo from "./images/typescript.svg";
 import FooterLogo from "./images/footer.png";
 import { default as authConfig } from "./config.json";
 import { AsgardeoSPAClient, AuthClientConfig, Hooks, BasicUserInfo, Config } from "@asgardeo/auth-spa";
@@ -116,7 +116,7 @@ export const App: FunctionComponent<{}> = (): ReactElement => {
                             <>
                                 <div className="header-title">
                                     <h1>
-                                        Javascript-based React SPA Authentication Sample
+                                        Typscript-based React SPA Authentication Sample
                                     </h1>
                                 </div>
                                 <div className="content">
@@ -149,7 +149,7 @@ export const App: FunctionComponent<{}> = (): ReactElement => {
                             <>
                                 <div className="header-title">
                                     <h1>
-                                        Javascript-based React SPA Authentication Sample
+                                    Typscript-based React SPA Authentication Sample
                                     </h1>
                                 </div>
                                 <div className="content">
